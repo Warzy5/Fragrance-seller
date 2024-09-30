@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #F2EAE2;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 600px;
+    font-family: 'Montserrat';
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img {
+    width: 50%;
+    
+}
+
+.product-info{
+    width: 50%;
+    padding: 8px;
+}
+
+.product-prices{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'fraunces';
+    align-items: center;
+}
+
+.cheapest-price{
+    color: green;
+    
+}
+
